@@ -1,0 +1,11 @@
+
+
+.card-wide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50em;
+    height: 10em;
+    margin: 1em;
+    background-color: gray;
+}
