@@ -1,0 +1,35 @@
+.container {
+    background-color: white;
+    max-width: 70em;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.post-image {
+    width: 100%;
+}
+
+.post-title {
+    padding: 1em;
+}
+
+.post-body {
+    text-indent: 3em;
+    padding-top: 0em;
+    padding-left: 8em;
+    padding-right: 8em;
+    padding-bottom: 2em;
+    text-align: left;
+    font-size: 14pt;
+    line-height: 2em;
+}
+
+q {
+    font-style: italic;
+    color: grey;
+    transition: color 0.2s;
+}
+p q:hover {
+    color: rgb(110, 156, 40);
+}
+

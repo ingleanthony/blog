@@ -5,6 +5,7 @@ import './navbar.css';
 export default function Navbar() {
     return (
         <nav>
+          
           <h2 className="nav-title">Anthony's Blog</h2>
           <ul>
             <li>
