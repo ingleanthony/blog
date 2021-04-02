@@ -5,6 +5,7 @@ import About from './pages/About';
 import Navbar from './components/Navbar';
 import Post from './pages/Post';
 import Infographic from './pages/Infographic';
+import Demo from './pages/Demo';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/about" component={About} />
         <Route path="/infographic" component={Infographic} />
         <Route path="/post" component={Post} />
+        <Route path="/demo" component={Demo} />
       </Switch>
       </div>
     </div>
