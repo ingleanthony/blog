@@ -1,6 +1,6 @@
 import React from 'react'
 import Canvas from '../components/Canvas'
-import './demo.css'
+import '../css/demo.css'
 
 export default function Demo() {
 

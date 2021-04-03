@@ -1,5 +1,5 @@
 import React from 'react';
-import './home.css';
+import '../css/home.css';
 import Card from '../components/Card';
 import robot from '../images/robot.jpg';
 import infographic from '../images/ai-infographic.jpg';

@@ -1,5 +1,5 @@
 import React from 'react';
-import './post.css';
+import '../css/post.css';
 import robot from '../images/robot.jpg';
 
 export default function Post( {src} ) {

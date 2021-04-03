@@ -1,6 +1,6 @@
 import React from 'react';
 import infographic from '../images/ai-infographic.jpg';
-import './info.css';
+import '../css/info.css';
 
 export default function Infographic() {
     return (
