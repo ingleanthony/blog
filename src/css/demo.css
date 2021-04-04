@@ -1,15 +1,62 @@
+.title {
+    font-size: 28pt;
+    padding-top: 1em;
+}
+
 .canvasDiv {
     margin-right: auto;
     margin-left: auto;
-    width: 80em;
+    max-width: 70em;
     background-color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.493);
+    color: rgb(41, 41, 41);
+}
+
+.canvasFlex {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 #canvas {
     width: 10em;
-    outline: 10px solid black;
+    transition: outline 0.5s;
+    outline: 10px solid rgb(27, 106, 155);
+    background-color: white;
 }
 
 #canvas:hover {
     cursor: crosshair;
+    outline: 10px solid rgb(52, 143, 200);
+}
+
+#smallCanvas {
+    outline: 2px solid rgba(52, 143, 200, 0.555);
+}
+
+.canvasColumn {
+    margin-top: 2em;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+.predictionColumn {
+    background-color: rgb(232, 240, 255);
+    padding: 3em;
+    width: 16em;
+    /* outline: 10px solid rgba(52, 143, 200, 0.555); */
+}
+
+.clearButton {
+    font-size: 12pt;
+    padding: 1em;
+    background-color: rgb(143, 192, 223);
+    border: none;
+    margin-top: 1em;
+}
+
+.clearButton:hover {
+    cursor: pointer;
+    background-color: rgb(190, 226, 248);
 }
