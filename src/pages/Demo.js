@@ -13,14 +13,14 @@ export default function Demo() {
     useEffect(() => {
         const canvas = canvasRef.current;
         const context = canvas.getContext('2d');
-        canvas.width = 560;
-        canvas.style.width = '280px';
-        canvas.height = 560;
-        canvas.style.height = '280px';
+        canvas.width = 280;
+        canvas.style.width = '140px';
+        canvas.height = 280;
+        canvas.style.height = '140px';
         context.lineCap = 'round';
         context.strokeStyle = 'gray';
         context.scale(2, 2);
-        context.lineWidth = 15;
+        context.lineWidth = 10;
         contextRef.current = context;
 
         const canvas2 = imageRef.current;
