@@ -4,3 +4,12 @@
     width: 80em;
     background-color: white;
 }
+
+#canvas {
+    width: 10em;
+    outline: 10px solid black;
+}
+
+#canvas:hover {
+    cursor: crosshair;
+}
