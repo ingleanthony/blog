@@ -10,6 +10,7 @@
     background-color: white;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.493);
     color: rgb(41, 41, 41);
+    padding-bottom: 2em;
 }
 
 .canvasFlex {
