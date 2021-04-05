@@ -3,3 +3,8 @@
     box-shadow: 5px 5px 10px black;
     margin-bottom: 5em;
 }
+@media only screen and (max-width: 800px) {
+    .info {
+        width: 100%;
+    }
+}
