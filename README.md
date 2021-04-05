@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# This blog was written in React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The deployed website can be found [here](https://blog-alpha-hazel.vercel.app/)
 
 ## Available Scripts
 
