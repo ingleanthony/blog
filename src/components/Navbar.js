@@ -1,5 +1,5 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
+import React from 'react';
+import { Link } from 'react-router-dom';
 import '../css/navbar.css';
 
 export default function Navbar() {
@@ -11,7 +11,7 @@ export default function Navbar() {
           <Link to="/">Home</Link>
         </li>
         <li>
-          <Link to="/articles">Write Up</Link>
+          <Link to="/rationale">Rationale</Link>
         </li>
         <li>
           <Link to="/about">About</Link>

@@ -6,6 +6,7 @@ import Navbar from './components/Navbar';
 import Post from './pages/Post';
 import Infographic from './pages/Infographic';
 import Demo from './pages/Demo';
+import Rationale from './pages/Rationale';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route exact path="/" component={Home} />
         <Route path="/about" component={About} />
         <Route path="/infographic" component={Infographic} />
+        <Route path="/rationale" component={Rationale} />
         <Route path="/post" component={Post} />
         <Route path="/demo" component={Demo} />
       </Switch>
