@@ -46,7 +46,7 @@ export default function Post( {src} ) {
             </p>
             <h2>Wrap-Up</h2>
             <p className='post-body'>
-
+                
             </p>
         </div>
     )
