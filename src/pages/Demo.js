@@ -114,6 +114,7 @@ export default function Demo() {
                     <h1>Prediction: {prediction}</h1>
                 </div>
             </div>
+            <p className='post-body'>This artificial intelligence model predicts handwritten digits that are written by you. This model is not amazing, but in the real world, models like these are almost perfect. This just shows the power of artifical intelligence.</p>
         </div>
     )
 }

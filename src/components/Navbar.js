@@ -12,17 +12,17 @@ export default function Navbar() {
   }
 
   return (
-    <nav>
+    <nav show={show}>
       <h2 className="nav-title">Anthony's Blog</h2>
       <div className='arrow-div' onClick={dropdown}><p className="arrow" show={show}></p></div>
-      <ul>
-        <li show={show}>
+      <ul show={show}>
+        <li>
           <Link to="/">Home</Link>
         </li>
-        <li show={show}>
+        <li>
           <Link to="/rationale">Rationale</Link>
         </li>
-        <li show={show}>
+        <li>
           <Link to="/about">About</Link>
         </li>
       </ul>

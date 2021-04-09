@@ -63,10 +63,21 @@ nav a:hover {
         margin-top: 1em;
         margin-bottom: 0;
         width: 100%;
+        position: relative;
+        transition: margin-bottom 0.5s;
     }
+
     nav ul {
         flex-direction: column;
-        padding-top: 1em;
+        padding-bottom: 1em;
+        transform: scale(1,1);
+        transition: transform 0.5s;
+        transform-origin: top;
+        position: absolute;
+        margin-top: 8em;
+        top: 0;
+        opacity: 1;
+        transition: opacity 0.5s;
     }
     nav li {
         box-sizing: border-box;
@@ -81,8 +92,13 @@ nav a:hover {
         display: inline-block;
     }
 
-    nav li[show='0'] {
-        display: none;
+    nav[show='1'] {
+        margin-bottom: 18em;
+    }
+
+    nav ul[show='0'] {
+        opacity: 0;
+        transform: scale(1,0);
     }
 
     .arrow {

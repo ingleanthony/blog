@@ -41,6 +41,13 @@ export default function Post( {src} ) {
             <p className='post-body'>
                 As artificial intelligence expands, more techonologies are on the rise. One of these is the self-driving car. Tesla is one step closer to this achievement, they have cars on the road with Autopilot, AI enabled software that allows the car to perform every driving function without input from the driver. Although this technology could allow people to drive safer on the road in the future, while it is still being developed, it is not perfect. There have been <a className='post-link' target='_blank' rel="noreferrer" href='https://www.bloomberg.com/news/features/2019-10-09/tesla-s-autopilot-could-save-the-lives-of-millions-but-it-will-kill-some-people-first'>cases</a>  where the Tesla failed to recognize an object in front at high speeds and has killed the driver as a result. Although the driver should be aware and focused on the car's actions at all times according to Tesla, this is an ethical dilemma. Who is truly responsible for the death of the driver? Is it the car? The company? The driver? The people who made the software? Although artificial intelligence is ultimately driving our world to a safer place, situations like these should be mentioned.
             </p>
+            <p className='post-body'>
+                This topic brings about a lot of debate and controversy. However, what is important to realize is that as our technology expands, incidents like these are part of the progress. That may sound heartless, but one should always be wary of new technology, especially one that puts your life at risk. As self-driving cars begin to progress further, they will become safer and ultimately even safer than a human driver. But since we are still in this transitioning state, please make sure you are fully attentive if you are behind the wheel of self-driving technology.
+            </p>
+            <h2>Wrap-Up</h2>
+            <p className='post-body'>
+
+            </p>
         </div>
     )
 }
