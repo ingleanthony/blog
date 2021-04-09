@@ -61,15 +61,49 @@ nav a:hover {
         flex-direction: column;
         height: fit-content;
         margin-top: 1em;
+        margin-bottom: 0;
+        width: 100%;
     }
     nav ul {
         flex-direction: column;
         padding-top: 1em;
     }
     nav li {
-        margin: 1em;
+        box-sizing: border-box;
+        width: 100%;
     }
+
     nav a {
+        box-sizing: border-box;
+        padding-top: 1em;
+        padding-bottom: 1em;
+        width: 100%;
+        display: inline-block;
+    }
+
+    nav li[show='0'] {
+        display: none;
+    }
+
+    .arrow {
+        border: solid rgb(255, 255, 255);
+        border-width: 0 4px 4px 0;
+        display: inline-block;
+        padding: 5px;
+        transform: rotate(45deg);
+        -webkit-transform: rotate(45deg);
+        transition: transform 0.3s;
+    }
+
+    .arrow-div {
+        margin-top: 1em;
+        width: 100%;
         padding: 1em;
+        background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
+        cursor: pointer;
+    }
+
+    .arrow[show='1'] {
+        transform: rotate(-135deg);
     }
 }
