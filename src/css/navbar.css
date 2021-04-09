@@ -76,12 +76,13 @@ nav a:hover {
         position: absolute;
         margin-top: 8em;
         top: 0;
-        opacity: 1;
-        transition: opacity 0.5s;
     }
+
     nav li {
         box-sizing: border-box;
         width: 100%;
+        opacity: 0;
+        transition: opacity 0.5s;
     }
 
     nav a {
@@ -92,13 +93,17 @@ nav a:hover {
         display: inline-block;
     }
 
+    /* Animations */
     nav[show='1'] {
-        margin-bottom: 18em;
+        margin-bottom: 17em;
     }
 
     nav ul[show='0'] {
-        opacity: 0;
         transform: scale(1,0);
+    }
+
+    nav li[show='1'] {
+        opacity: 1;
     }
 
     .arrow {

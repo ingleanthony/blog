@@ -16,13 +16,13 @@ export default function Navbar() {
       <h2 className="nav-title">Anthony's Blog</h2>
       <div className='arrow-div' onClick={dropdown}><p className="arrow" show={show}></p></div>
       <ul show={show}>
-        <li>
+        <li show={show}>
           <Link to="/">Home</Link>
         </li>
-        <li>
+        <li show={show}>
           <Link to="/rationale">Rationale</Link>
         </li>
-        <li>
+        <li show={show}>
           <Link to="/about">About</Link>
         </li>
       </ul>
